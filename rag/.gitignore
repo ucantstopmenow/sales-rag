@@ -1,0 +1,49 @@
+# --- Arquivos de Ambiente ---
+# Ignora o arquivo que contém variáveis de ambiente e segredos.
+.env
+
+# --- Artefatos do Python ---
+# Ignora o cache de bytecode e outros arquivos gerados pelo interpretador.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Diretórios de Ambientes Virtuais ---
+# Ignora pastas de ambientes virtuais comuns.
+venv/
+venv.bak/
+env/
+.venv/
+virtualenv/
+
+# --- Arquivos de Build e Distribuição ---
+# Ignora pacotes e arquivos gerados durante o processo de build.
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- Arquivos de Configuração de IDEs e Editores ---
+# Ignora configurações específicas de ambientes de desenvolvimento locais.
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Arquivos de Testes ---
+# Ignora cache e relatórios de cobertura de testes.
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# --- Arquivos de Log ---
+# Ignora arquivos de log gerados pela aplicação.
+*.log
+
+# --- Arquivos de Sistema Operacional ---
+# Ignora arquivos de metadados do macOS e Windows.
+.DS_Store
+Thumbs.db
