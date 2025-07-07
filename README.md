@@ -72,7 +72,8 @@ POSTGRES_PORT=5432
 DATABASE_URL="postgresql://user:password@db:5432/sales_db"
 ```
 ### 3. Popular o Banco de Dados com Dados de Exemplo
-### 4. Inicie o ambiente virtual
-### 5. Inicie o servidor fastAPI
-### 6. Acesse: ➡️ http://localhost:8000/docs
-### 7. No endpoint "/sales-insights" teste a IA
+### 4. Baixe as dependências: pip install -r requirements.txt
+### 5. Inicie o ambiente virtual
+### 6. Inicie o servidor fastAPI
+### 7. Acesse: ➡️ http://localhost:8000/docs
+### 8. No endpoint "/sales-insights" teste a IA
