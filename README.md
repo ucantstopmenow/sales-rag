@@ -40,7 +40,6 @@ A maneira mais simples de rodar este projeto é utilizando Docker.
 
 ### Pré-requisitos
 
--   [Docker](https://www.docker.com/get-started) e [Docker Compose](https://docs.docker.com/compose/install/) instalados.
 -   Uma chave de API do **Google Gemini**. Você pode obter uma gratuitamente no [Google AI Studio](https://aistudio.google.com/app/apikey).
 
 ### 1. Clonar o Repositório
